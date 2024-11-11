@@ -1,0 +1,45 @@
+.Header{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 250px;
+    /* background-color: red; */
+}
+.Header .Logo{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+}
+.Header .Logo svg{
+    margin-right: 15px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+
+}
+nav ul li a{
+    color: #031126;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+.Header button{
+    width: 100px;
+    height: 45px;
+    padding: 10px 20px;
+    /* margin: 0 10px; */
+    border-radius: 15px;
+    border: 1px solid #49b3fb;
+    background-color: #fff;
+    cursor: pointer;
+}
+.Header button:hover{
+    background-color: #49b3fb;
+    color: #fff;
+    transition: 0.7s;
+}
