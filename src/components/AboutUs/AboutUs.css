@@ -1,0 +1,68 @@
+.AboutUsPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 0 250px;
+
+    
+}
+.AboutUsPage .LeftSide{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.AboutUsPage .RightSide{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #031126;
+}
+
+.AboutUsPage .LeftSide img{
+    width: 80%;
+}
+.AboutUsPage .RightSide .AboutUsP{
+    font-size: 14px;
+    color: #1AA1FD;
+}
+.AboutUsPage .RightSide h3{
+    font-size: 46px;
+    font-weight: 600;
+
+}
+.AboutUsPage .RightSide .AboutUsText{
+    font-size: 14px;
+}
+.AboutUsPage .RightSide .AboutUsBlock{
+    width: 300px;
+    height: 65px;
+    /* background-color: #1AA1FD; */
+    display: flex;
+    font-size: 12px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.AboutUsPage .RightSide .AboutUsBlock .PhotoPlace{
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid #1AA1FD;
+}
+.AboutUsPage .RightSide .AboutUsBlock .PhotoPlace:hover{
+    background-color: #1AA1FD;
+}
+
+.AboutUsPage .RightSide .AboutUsBlock .HeaderP{
+    font-size: 18px;
+    font-weight: 500;
+}
